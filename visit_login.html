@@ -1,0 +1,62 @@
+    <?
+    include('header.php');
+    ?>
+
+    <div class="login_bg">
+      <img src="./images/visit_bg.jpg" alt="내방신청 배경이미지">
+    </div>
+
+    <div class="login_page">
+      <fieldset>
+        <legend>Log in</legend>
+        <hr>
+        <h4>삼성중공업 내방신청 시스템에<br>오신것을 환영합니다.</h4>
+        <p>
+          <span>원활한 사이트 이용을 위해 시스템 로그인후 이용바랍니다.</span>
+        </p>
+
+        <p class="login_title">ID</p>
+        <p>
+          <label for="id"></label>
+          <input
+            type="text"
+            maxlength="20"
+            id="id"
+            placeholder="아이디를 입력하세요"
+         >
+        </p>
+
+        <p class="login_title">Password</p>
+        <p>
+          <label for="m_pw"></label>
+          <input
+            type="password"
+            maxlength="16"
+            id="m_pw"
+            placeholder="비밀번호를 입력하세요"
+         >
+        </p>
+        <p>
+          <input
+            type="checkbox"
+            name="아이디 저장"
+            value="아이디 저장"
+            id="m_id_save"
+         >
+          <label for="m_id_save">아이디 저장</label>
+        </p>
+
+        <p><input type="submit" value="로그인" id="m_login_btn"></p>
+
+        <p><input type="button" value="회원가입" id="m_join"></p>
+        <p><input type="button" value="아이디&비밀번호 찾기" id="m_find"></p>
+
+      </fieldset>
+    </div>
+
+    <!-- 제이쿼리cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- common.js -->
+    <script src="./script/common.js"></script>
+  </body>
+</html>

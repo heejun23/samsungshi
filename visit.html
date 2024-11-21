@@ -1,0 +1,364 @@
+    <?
+    include('header.php');
+    ?>
+
+
+    <!-- 메인 -->
+      <!-- 메인 이미지,로그인 영역 -->
+      <div class="v_main">
+        <img src="./images/visit_bg.jpg" alt="내방신청 메인이미지">
+        <div class="v_box">
+          <div class="title">
+            <h2>삼성중공업 <span>내방신청 시스템</span></h2>
+            <p>Welcome To SAMSUNG Heavy Industries</p>
+            <a href="visit_login.html" title="로그인페이지" class="login_go">
+              Log in<i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <div class="m_notice">
+              <h3><a href="visit_notice.html" title="공지사항">공지사항</a></h3>
+              <a href="visit_notice.html" title="공지사항"
+                ><i class="fa-solid fa-plus"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="#" title="공지사항1"
+                    >사우매장 앞 도로 불법주차 즉시 단속 안내</a
+                  >
+                </li>
+                <li>
+                  <a href="#" title="공지사항2"
+                    >신종 코로나바이러스 국내 유입에 따른 예방조치 안내</a
+                  >
+                </li>
+                <li>
+                  <a href="#" title="공지사항3"
+                    >시스템 중단안내 (8.10(토)18:00~8.11(일)7:30)</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="login">
+            <fieldset>
+              <legend>Log in</legend>
+              <h4>삼성중공업 내방신청 시스템에<br>오신것을 환영합니다.</h4>
+              <p id="explain">
+                원활한 사이트 이용을 위해 시스템 로그인후 이용바랍니다.
+              </p>
+
+              <p class="l_title">ID</p>
+              <p>
+                <label for="id"></label>
+                <input
+                  type="text"
+                  maxlength="20"
+                  id="id"
+                  placeholder="아이디를 입력하세요"
+               >
+              </p>
+
+              <p class="l_title">Password</p>
+              <p>
+                <label for="pw"></label>
+                <input
+                  type="password"
+                  maxlength="16"
+                  id="pw"
+                  placeholder="비밀번호를 입력하세요"
+               >
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  name="아이디 저장"
+                  value="아이디 저장"
+                  id="id_save"
+               >
+                <label for="id_save">아이디 저장</label>
+              </p>
+
+              <p><input type="submit" value="로그인" id="login_btn"></p>
+
+              <div class="btn_box">
+                <input type="button" value="회원가입" id="join">
+                <input type="button" value="아이디&비밀번호 찾기" id="find">
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+    <!-- 아이콘탭 -->
+    <div class="icon_tab">
+      <ul>
+        <li class="icon on_bg">
+          <a href="visit.html" title="내방신청" class="on_text">
+            <img src="./images/icon_application_w.png" alt="내방신청"
+            class="icon">내방신청</a
+          >
+        </li>
+        <li class="icon changed">
+          <a href="visit_registration.html" title="방문업체등록"
+            ><img
+              src="./images/icon_sign_up_b.png"
+              alt="방문업체등록"
+              class="icon"
+           >방문업체등록</a
+          >
+        </li>
+        <li class="icon">
+          <a href="visit_join_guide.html" title="회원가입메뉴얼"
+            ><img
+              src="./images/icon_pdf_b.png"
+              alt="회원가입메뉴얼"
+              class="icon"
+           >회원가입메뉴얼</a
+          >
+        </li>
+        <li class="icon">
+          <a href="visit_notice.html" title="공지사항"
+            ><img
+              src="./images/icon_megaphone_b.png"
+              alt="공지사항"
+              class="icon"
+           >공지사항</a
+          >
+        </li>
+        <li class="icon">
+          <a href="visit_FAQ.html" title="FAQ"
+            ><img src="./images/icon_faq_b.png" alt="FAQ" class="icon">FAQ</a
+          >
+        </li>
+        <li class="icon">
+          <a href="#" title="장기안전교육"
+            ><img
+              src="./images/icon_long_edu_b.png"
+              alt="장기안전교육"
+              class="icon"
+           >장기안전교육</a
+          >
+        </li>
+      </ul>
+    </div>
+
+
+      <!-- 콘텐츠 영역 -->
+      <section class="v_cont">
+        <h2 class="scroll_on type_bottom">내방신청 절차안내</h2>
+        <article class="scroll_on type_bottom text01">
+          <h3>내방신청 시스템</h3>
+          <p>
+            사업장 방문을 위해서는 본 시스템에서 사전등록을 하셔야 합니다.<br>
+            본 시스템은 회원가입이 필요하며, 신청 전 삼성중공업 당사 임직원과
+            연락이 필요합니다.<br>
+            출입 유형에 따라서 안전교육 수료, 방문업체등록(업체 산재번호),
+            추가서류 제출을 하셔야 합니다.
+          </p>
+        </article>
+
+        <article class="scroll_on type_bottom text02">
+          <h3>임시작업자</h3>
+          <p>
+            최대 1주이내 거제 조선소 내에 임시 작업자인 경우
+            <span style="color: #0c4da2"
+              >(※연속 4회까지 최대 한달까지 연장신청 가능)</span
+            >
+          </p>
+          <!-- Swiper -->
+          <div class="swiper mySwiper1">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div data-hash="slide1" class="swiper-slide">
+                
+                  <img src="./images/icon_slide1.png" alt="로그인">
+                
+                <div class="text_box">
+                  <h4>1. 로그인</h4>
+                  <p>비회원은 회원가입을 하고 로그인을 하여야 합니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide2" class="swiper-slide">
+                
+                  <img src="./images/icon_slide2.png" alt="내방객 보안교육 수료">
+                
+                <div class="text_box">
+                  <h4>2. 내방객 보안교육 수료</h4>
+                  <p>
+                    보안교육은 온라인을 통해 바로 받을 수 있으며<br>
+                    반드시 한 화면에서 5초 이상 학습 후 이동 가능합니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide3" class="swiper-slide">
+                
+                  <img src="./images/icon_slide2.png" alt="안전교육 수료">
+                
+                <div class="text_box">
+                  <h4>3. 안전교육 수료</h4>
+                  <p>
+                    안전교육 신청은 다음날 부터 가능하며,<br>
+                    신청 후 일정 변경이 가능합니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide4" class="swiper-slide">
+                
+                  <img src="./images/icon_slide4.png" alt="내방신청">
+                
+                <div class="text_box">
+                  <h4>4. 내방신청</h4>
+                  <p>
+                    내방 신청 시 소속회사명을 변경등록 할 수 있습니다.<br>
+                    방문처 담당자가 신청해주는 대신 신청정보를 승인하므로<br>
+                    반드시 방문처 기입 바랍니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide5" class="swiper-slide">
+                
+                  <img src="./images/icon_slide5.png" alt="신청결과 대기">
+                
+                <div class="text_box">
+                  <h4>5. 신청결과 대기</h4>
+                  <p>
+                    임직원 승인시 내방신청이 완료되며,<br>
+                    핸드폰과 이메일로 안내받으실 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide6" class="swiper-slide">
+                
+                  <img src="./images/icon_slide6.png" alt="사업장 방문">
+                
+                <div class="text_box">
+                  <h4>6. 사업장 방문</h4>
+                  <p>내방신청한 해당 장소로 방문하시면 됩니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide7" class="swiper-slide">
+                
+                  <img src="./images/icon_slide7.png" alt="내방객카드 수령">
+                
+                <div class="text_box">
+                  <h4>7. 내방객카드 수령</h4>
+                  <p>신분증 제시 후, 내방객카드를 수령하셔야 합니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide8" class="swiper-slide">
+                
+                  <img src="./images/icon_slide8.png" alt="입문">
+                
+                <div class="text_box">
+                  <h4>8. 입문</h4>
+                  <p>
+                    입문 전 휴대폰, 촬영기기, 문서는 보안요원에게 신고하셔야
+                    합니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </article>
+
+        <article class="scroll_on type_bottom text03">
+          <h3>사무동 방문자</h3>
+          <p>
+            최대 1주이내 거제 조선소 내에 사무동 방문자인 경우
+            <span style="color: #0c4da2"
+              >(※연속 4회까지 최대 한달까지 연장신청 가능)</span
+            >
+          </p>
+          <!-- Swiper -->
+          <div class="swiper mySwiper2">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div data-hash="slide1" class="swiper-slide">
+                
+                  <img src="./images/icon_slide1.png" alt="로그인">
+                
+                <div class="text_box">
+                  <h4>1. 로그인</h4>
+                  <p>비회원은 회원가입을 하고 로그인을 하여야 합니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide2" class="swiper-slide">
+                
+                  <img src="./images/icon_slide2.png" alt="내방객 보안교육 수료">
+                
+                <div class="text_box">
+                  <h4>2. 내방객 보안교육 수료</h4>
+                  <p>
+                    보안교육은 온라인을 통해 바로 받을 수 있으며<br>
+                    반드시 한 화면에서 5초 이상 학습 후 이동 가능합니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide3" class="swiper-slide">
+                
+                  <img src="./images/icon_slide4.png" alt="내방신청">
+                
+                <div class="text_box">
+                  <h4>3. 내방신청</h4>
+                  <p>
+                    내방 신청 시 소속회사명을 변경등록 할 수 있습니다.<br>
+                    방문처 담당자가 신청해주는 대신 신청정보를 승인하므로<br>
+                    반드시 방문처 기입 바랍니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide4" class="swiper-slide">
+                
+                  <img src="./images/icon_slide5.png" alt="신청결과 대기">
+                
+                <div class="text_box">
+                  <h4>4. 신청결과 대기</h4>
+                  <p>
+                    임직원 승인시 내방신청이 완료되며,<br>
+                    핸드폰과 이메일로 안내받으실 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div data-hash="slide5" class="swiper-slide">
+                
+                  <img src="./images/icon_slide6.png" alt="사업장 방문">
+                
+                <div class="text_box">
+                  <h4>5. 사업장 방문</h4>
+                  <p>내방신청한 해당 장소로 방문하시면 됩니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide6" class="swiper-slide">
+                
+                  <img src="./images/icon_slide7.png" alt="내방객카드 수령">
+                
+                <div class="text_box">
+                  <h4>6. 내방객카드 수령</h4>
+                  <p>신분증 제시 후, 내방객카드를 수령하셔야 합니다.</p>
+                </div>
+              </div>
+              <div data-hash="slide7" class="swiper-slide">
+                
+                  <img src="./images/icon_slide8.png" alt="입문">
+                
+                <div class="text_box">
+                  <h4>7. 입문</h4>
+                  <p>
+                    입문 전 휴대폰, 촬영기기, 문서는 보안요원에게 신고하셔야
+                    합니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <input type="button" value="내방신청" class="simple_btn">
+        </article>
+      </section>
+
+    <?
+    include('footer.php');
+    ?>

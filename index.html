@@ -1,0 +1,363 @@
+<?php
+include('header.php');
+?>
+    <!-- 마우스 커서 이벤트 -->
+    <div class="cursor">
+      <div class="cs_inner"></div>
+    </div>
+
+    <!-- 1. 메인비디오 영역 -->
+    <article class="main_video">
+      <!-- loop playsinline 추가 동영상 포맷 추가 -->
+      <video id="video" autoplay muted loop playsinline>
+        <source src="./video/main_video.mp4" type="video/mp4">
+        <source src="./video/main_video.mov" type="videw/quicktime">
+        동영상 재생을 지원하지 않습니다
+      </video>
+      <div class="darken">&nbsp;</div>
+      <div class="main_title">
+        <h2>SUSTAINABLE <span class="bk">JOURNEY</span> WITH SHI</h2>
+        <p>삼성중공업은 지속가능한 가치를 창출하고 <span class="bk">더 나은 미래를 그리기 위해</span></p>
+        <p>더 멀리, 더 힘차게 항해할 것입니다.</p>
+        <!-- 일시정지 버튼 추가 -->
+        <i class="fas fa-pause"></i>
+      </div>
+    </article>
+
+    <!-- 2. 회사소개 영역 -->
+    <section class="company">
+      <h2>삼성중공업은 <span class="bold">조선·해양 분야</span>에서 <span class="bk">세계 최고를 지향합니다.</span></h2>
+      <div class="c_wrap">
+        <div class="c_cont">
+          <div class="c_cont_count">
+            <p class="c_sub_title">창립일</p>
+            <p><span id="c_count1">1974</span>년</p>
+          </div>
+          <div class="c_cont_count">
+            <p class="c_sub_title">직원수</p>
+            <p><span id="c_count2">9640</span>명</p>
+          </div>
+          <div class="c_cont_count">
+            <p class="c_sub_title">자본금</p>
+            <p><span id="c_count3">8801</span>억원</p>
+          </div>
+          <div class="c_cont_count">
+            <p class="c_sub_title">총자산</p>
+            <p><span id="c_count4">158920</span>억원</p>
+          </div>
+          <div class="c_cont_count">
+            <p class="c_sub_title">매출액</p>
+            <p><span id="c_count5">79072</span>억원</p>
+          </div>
+          <div class="c_cont_count">
+            <p class="c_sub_title">총수주잔고</p>
+            <p><span id="c_count6">393000</span>억원</p>
+          </div>
+        </div>
+        <div class="since">SINCE 2023</div>
+        <p><a href="company.html" title="자세히보기" class="c_button">자세히보기</a></p>
+      </div>      
+    </section>
+
+    <!-- 3. 사업소개 영역 -->
+    <section class="business">
+      <div class="b_title">
+        <h3>삼성중공업 <span class="bk">사업소개</span></h3>
+        <p>세계최고의 기술력을 바탕으로 한
+        <span class="bk">고기술 고부가가치 선박건조 세계 1위</span></p>
+        <a href="product.html" title="사업소개 더보기" class="c_button">자세히보기</a>
+      </div>
+      <ul class="b_list">
+        <li class="on">
+          <a href="product.html" class="b_cont">
+            <em>01</em>
+            <h4>조선사업</h4>
+            <p class="sub_title">고기술, 고부가가치 선박위주의 
+              <span class="bk">선별수주로 고수익 실현</span>
+            </p>
+            <p>삼성중공업은 1974년 창립 이래
+              <span class="bk">세계 유수의 해운선사로부터 1,417척(2022년 12월 기준)의</span>
+              선박을 수주하여 그 중 1,256척은 성공적으로 인도하여
+              <span class="bk">뛰어난 기술력과 우수한 품질을 인정받고 있습니다.</span>
+            </p>
+            <span class="view_more">자세히 보기</span>
+          </a>
+        </li>
+        <li>
+          <a href="product.html" class="b_cont">
+            <em>02</em>
+            <h4>해양사업</h4>
+            <p class="sub_title">드릴십, FPSO 분야 
+              <span class="bk">세계 최다 건조실적</span>
+            </p>
+            <p>고도의 안정성과 기술력을 필요로 하는   바탕으로 세계 주요 오일 메이저 기업들로부터 인정을 받고 있습니다.
+              <span class="bk">고정식 해양플랫폼, TLP, 부유식 해상구조물 등</span>
+              해양개발설비 시장에서도 축적된 선박 건조 기술을
+              <span class="bk">바탕으로 세계에서 인정을 받고 있습니다.</span>
+            </p>
+            <span class="view_more">자세히 보기</span>
+          </a>
+        </li>
+        <li>
+          <a href="product.html" class="b_cont">
+            <em>03</em>
+            <h4>기술개발</h4>
+            <p class="sub_title">고부가가치 선박 및 
+              <span class="bk">해양플랜트의 핵심기술 확보</span>
+            </p>
+            <p>1984년 기본설계부의 개발팀으로 출발한 연구소는
+              <span class="bk">선박해양연구소, 생산기술연구로, 산업기술연구소,</span>
+              중앙연구소 등의 명칭을 거쳐 2017년 조선해양연구소로
+              <span class="bk">기능을 통합하여 운영하고 있습니다.</span>
+            </p>
+            <span class="view_more">자세히 보기</span>
+          </a>
+        </li>
+        <li class="bg"></li>
+      </ul>
+    </section>
+
+    <!-- 4. 기술소개 영역 -->
+    <section class="main_product">
+      <h2><b>최고의 성능과 품질 구현</b>을 위해 온 힘을 다하고 있습니다.</h2>   <!-- 수정 -->
+      <div class="vertical_img">
+        <div>
+          <img src="./images/product1.jpg" alt="">
+          <div class="bg_gradient"></div>
+          <div class="v_title">
+            <p>친환경 선박용 대용량 배터리 시스템</p>
+            <h3>Battery System Ted-Bed</h3>
+            <a href="#" class="view_more">자세히 보기</a>
+          </div>
+        </div>
+        <div>
+          <img src="./images/product2.jpg" alt="">
+          <div class="bg_gradient"></div>
+          <div class="v_title">
+            <p>대전 세계 최대 규모 상업용 예인수조</p>
+            <h3>예인 수조 Towing Tank</h3>
+            <a href="#" class="view_more">자세히 보기</a>
+          </div>
+        </div>
+        <div>
+          <img src="./images/product3.jpg" alt="">
+          <div class="bg_gradient"></div>
+          <div class="v_title">
+            <p>자체기술 국내 최대규모 저소음 공동수조</p>
+            <h3>공동수조 Cavitation Tunnel</h3>
+            <a href="#" class="view_more">자세히 보기</a>
+          </div>
+        </div>
+        <div>
+          <img src="./images/product4.jpg" alt="">
+          <div class="bg_gradient"></div>
+          <div class="v_title">
+            <p>실제 선박성능을 정확히 추정하는 정밀모형</p>
+            <h3>모형 제작</h3>
+            <a href="#" class="view_more">자세히 보기</a>
+          </div>
+        </div>
+        <div>
+          <img src="./images/product5.jpg" alt="">
+          <div class="bg_gradient"></div>
+          <div class="v_title">
+            <p>ISO/IEC17025의 규정에 따른 시험 통과</p>
+            <h3>KOLAS 시공승인</h3>
+            <a href="#" class="view_more">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 사업장 소개 영역 -->
+    <section class="world_map">
+      <div class="wm_title">
+        <p>한국 조선해양산업의 중심</p>
+        <h2>삼성중공업</h2>
+      </div>
+      <div class="wm_wrap">
+        <img src="./images/world_map.png" alt="세계지도">
+        <div class="point1">
+          <div class="point europe">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>런던지점</p>
+          </div>
+        </div>
+        <div class="point2">
+          <div class="point europe">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>아테네지점</p>
+          </div>
+        </div>
+        <div class="point6">
+          <div class="point korea">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>판교R&D센터</p>
+            <p>거제조선소</p>
+            <p>대덕연구센터</p>
+            <p>부산R&D센터</p>
+          </div>
+        </div>
+        <div class="point7">
+          <div class="point asia">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>동경지점</p>
+          </div>
+        </div>
+        <div class="point5">
+          <div class="point china">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>영성법인</p>
+          </div>
+        </div>
+        <div class="point3">
+          <div class="point asia">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>인도설계센터</p>
+          </div>
+        </div>
+        <div class="point4">
+          <div class="point asia">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>싱가포르지점</p>
+          </div>
+        </div> 
+        <div class="point8">
+          <div class="point usa">
+            <div class="point_inner"></div>
+          </div>
+          <div class="location">
+            <p>휴스톤지점</p>
+          </div>
+        </div>
+        <p><a href="workplace.html" title="자세히보기" class="c_button">자세히보기</a></p>
+      </div>
+      <div class="wm_mobile_tab">
+        <input type="radio" name="map_tab" id="korea" checked>
+        <input type="radio" name="map_tab" id="china">
+        <input type="radio" name="map_tab" id="asia">
+        <input type="radio" name="map_tab" id="usa">
+        <input type="radio" name="map_tab" id="europe">
+        <div class="wm_tab_label">
+          <label for="korea">국내</label>
+          <label for="china">중국법인</label>
+          <label for="asia">아시아</label>
+          <label for="usa">미주</label>
+          <label for="europe">유럽</label>
+        </div>
+        <div class="wm_tab_cont">
+          <div class="wm_tab_cont_inner">
+            <h3>판교R&D센터</h3>
+            <p class="wm_address">경기도 성남시 분당구 판교로 227번길 23<br>
+              삼성중공업 판교R&D센터 우 13486</p>
+            <p class="wm_call">Tel ) 031-5171-7000</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>거제조선소</h3>
+            <p class="wm_address">경상남도 거제시 장평3로 80(장평동) 우 53261</p>
+            <p class="wm_call">Tel ) 055-630-3114</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>대덕연구센터</h3>
+            <p class="wm_address">대전광역시 유성구 문지로 217 우 34051</p>
+            <p class="wm_call">Tel ) 042-865-4300</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>부산R&D센터</h3>
+            <p class="wm_address">부산시 남구 전포대로 133 제오피스호 16,<br>
+              17층(문현동, 문현금융단지IFC부산복합시설)</p>
+            <p class="wm_call">Tel ) 051-933-5501</p>
+          </div>
+        </div>
+        <div class="wm_tab_cont">
+          <div class="wm_tab_cont_inner">
+            <h3>영성법인</h3>
+            <p class="wm_address">No.39 Lidao town,<br>
+              Rongcheng City 264-200, China</p>
+            <p class="wm_call">Tel ) 86-631-7767-888<br>
+              Fax ) 86-631-7767-009</p>
+          </div>
+        </div>
+        <div class="wm_tab_cont">
+          <div class="wm_tab_cont_inner">
+            <h3>동경지점</h3>
+            <p class="wm_address">Idabashi Grand Bloom, 2-10-2, Fujimi,<br>
+              Chiyoda-ku, Tokyo 102-0071, Japan</p>
+            <p class="wm_call">Tel ) +81-3-6333-2931<br>
+              Fax ) +81-3-6333-2935</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>싱가포르지점</h3>
+            <p class="wm_address">049483 3 Church St,<br>
+              #21-03 Samsung Hub Bldg Singapore Singapore</p>
+            <p class="wm_call">Tel ) +65-65-50-8182<br>
+              Fax ) +65-65-50-8188</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>인도설계센터</h3>
+            <p class="wm_address">201301 Logix Cyber Park, Block-B,<br>
+              1st Floor C-2 & C29, Sec-62,<br>
+              Noida-201301 U.P, India</p>
+            <p class="wm_call">Tel ) +91-120-468-6002<br>
+              Fax ) +91-120-468-6007</p>
+          </div>
+        </div>
+        <div class="wm_tab_cont">
+          <div class="wm_tab_cont_inner">
+            <h3>휴스턴지점</h3>
+            <p class="wm_address">11757 Katy Freeway,<br>
+              Suite 800 Houston TX 77079</p>
+            <p class="wm_call">Tel ) +1-281-679-8460<br>
+              Fax ) +1-281-679-8473</p>
+          </div>
+        </div>
+        <div class="wm_tab_cont">
+          <div class="wm_tab_cont_inner">
+            <h3>런던지점</h3>
+            <p class="wm_address">1st Floor, East Wing,<br>
+              30 Gresham Street London UK, EC2V 7PG</p>
+            <p class="wm_call">Tel ) +44-20-3598-8501<br>
+              Fax ) +44-20-3598-8509</p>
+          </div>
+          <div class="wm_tab_cont_inner">
+            <h3>아테네지점</h3>
+            <p class="wm_address">24A, Kifissias Avenue, Marousi,<br>
+              Athens Greece 15125</p>
+            <p class="wm_call">Tel ) +30-210-934-4866<br>
+              Fax ) +30-210-934-8163</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 채용정보 영역 -->
+    <section class="hire">
+      <h2>열정과 도전정신을 지닌 <b>열린 인재</b></h2>
+      <div class="hire_wrap">
+        <img src="./images/recruit_bg.jpg" alt="배경">
+        <div class="h_title">
+          <h3>조선강국 코리아!</h3>
+          <p>그 명성을 이어갈 주역을 찾습니다.</p>
+
+          <p class="h_buttons"><a href="#" title="인재상">인재상</a>
+          <a href="http://heejun.dothome.co.kr/bbs/bbs/board.php?bo_table=recruitment_notice" title="채용공고">채용공고</a></p>
+        </div>
+      </div>
+    </section>
+<?php
+include('footer.php');
+?>
